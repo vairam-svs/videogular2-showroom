@@ -18,6 +18,9 @@ export class StreamingPlayerComponent implements OnInit {
     api: VgAPI;
 
     streams:IMediaStream[] = [
+        { label: 'Love', source: 'assets/videos/love.mp4' },
+        { label: 'You', source: 'assets/videos/you.mp4' },
+        { label: 'I', source: 'assets/videos/ime.mp4' },
         { label: 'VOD', source: 'http://static.videogular.com/assets/videos/videogular.mp4' },
         { label: 'DASH: Multi rate Streaming', source: 'https://s3.amazonaws.com/_bc_dml/example-content/sintel_dash/sintel_vod.mpd' },
         { label: 'DASH: Live Streaming', source: 'https://24x7dash-i.akamaihd.net/dash/live/900080/dash-demo/dash.mpd' },
